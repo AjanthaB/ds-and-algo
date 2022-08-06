@@ -29,10 +29,8 @@ const array = [1, 3, 5, 8];
 Now you can see, array is sorted, last element will be sorted automatically
 
 
-============
 
-
-## Complexity fo te Selection Sort
+## Complexity of the Selection Sort
 
 **Time complexity** of the algorithm is **O(n^2)** as there are two nested loops.
 * one loop to iterate the array one by one **O(n)**
