@@ -33,3 +33,10 @@ Now you can see, array is sorted, last element will be sorted automatically
 
 
 ## Complexity fo te Selection Sort
+
+**Time complexity** of the algorithm is **O(n^2)** as there are two nested loops.
+* one loop to iterate the array one by one **O(n)**
+* One loop to compare the element with the current value **O(n)**
+
+**Auxiliary Space** is **O(1)** due using one extra space awap values. Good thing is Selection Sort will never used more than **O(n)** swaps and usefull when memmory write is costly operation.
+
