@@ -192,3 +192,17 @@ l.head.next.next.next.next = head;
 
 console.log(hasLoop(l));
 ```
+
+
+
+**Time Complexity** : O(n), need to traverse all the elements one time
+**Space Complexity**: O(2), keep two pointers
+
+
+### Solution 3
+
+We can add a new property to node(example flag) and set 0 or false as initial value. when visit the
+node mark it as 1 or true. if any node found with flag value 1 or true, it's a already visited node.
+It means linked list has a loop
+
+There are some other approaches as well. I will be covering only these 3
